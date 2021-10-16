@@ -24,4 +24,5 @@ def get_morse_translation(message):
     except KeyError:
         return"Unfortunately we did not have a Morse Code translation for one of the characters you entered\nPlease try again"
     
+print(get_morse_translation("hello wOrld!"))
 print(get_morse_translation("hello wOrld!á"))
